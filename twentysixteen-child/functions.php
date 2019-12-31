@@ -22,3 +22,9 @@ endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 // END ENQUEUE PARENT ACTION
+
+
+function remove_category_text_from_archive_title($title) {
+    return is_category() ? single_cat_title('', false) : $title;
+}
+add_filter('get_the_archive_title', 'remove_category_text_from_archive_title'); 

@@ -11,3 +11,86 @@ Updated: 2019-11-28 19:06:14
 
 */
 
+#page {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.site-title a {
+  font-size: 1.0rem;
+}
+
+.entry-title {
+  color: #484848;
+}
+.site-header {
+	padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.header-image {
+	margin-top: 0.2em;
+	margin-bottom: 0.9em;
+}
+
+.header-image img {
+	width: 100%;
+}
+
+.post-navigation .post-title,
+.entry-title,
+.comments-title {
+-moz-hyphens: none;
+-ms-hyphens: none;
+-webkit-hyphens: none;
+hyphens: none;
+word-wrap: normal;
+}
+
+.entry-content a:link {
+  color: inherit;
+}
+
+@media screen and (min-width: 0px) {
+	.header-image {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 27em) {
+	.site-title {
+		font-size: 1.4rem;
+	}
+	
+	.header-image {
+		display: block;
+	}
+}
+
+@media screen and (min-width: 38em) {
+	.site-title {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 38em) {
+	.site-title {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-width: 44.375em) {
+	.entry-title {
+		font-size: 2em;
+	}
+	.site-header {
+		padding-top: 0.5em;
+	}
+	.site-header-menu {
+		margin-top: -0.9em;
+	}
+		.header-image {
+		display: none;
+	}
+}
+
